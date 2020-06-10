@@ -1,4 +1,2 @@
-data*
-training_data*
-val_data*
-video*
+training_data/**
+val_data/**
