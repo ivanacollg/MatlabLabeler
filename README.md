@@ -1,2 +1,2 @@
 # matlab_image_labeler
-Trained an object detector cor automatic image labeling
+Use of an object detector for automatic image labeling
