@@ -18,11 +18,12 @@ Use of an object detector for automatic image labeling.
 
 ## Manual labeling 
 - Open ```Image Labeler``` app
-- Add images from folder
-- Create label
+- Add images from folder ```/train_data```
+- Create label: It is possible to create more than one label at a time. 
 - Label images
-- Save image labeling session as: ```labeling_session_[label_name]```
-- Export image Labels as: ```labels_[label_name]```
+- Save image labeling session as: ```[label_name]_labeler_session```
+- Save label definitions as: ```[label_name]_label_def```
+- Export image Labels as: ``[label_name]_labels```
 
 ## Training obj detector
 The Object detector used in this repository is the ACF detector from matlab.
@@ -32,6 +33,8 @@ The Object detector used in this repository is the ACF detector from matlab.
 ## Automatic labeling
 - Open ```Image Labeler``` app
 - Import images from ```/val_data```
-- Import labels.
-- Import detector method. 
-- Run method on validation images. 
+- Import labels
+- Import label definition
+- To Do: Change detector name in automatic labeler automatically instead of manually. 
+- Import detector method ```/+vision/+labeler/GangsterACFDetector.m```
+- Run method on validation images

@@ -161,7 +161,7 @@ classdef GansgsterACFDetector < vision.labeler.AutomationAlgorithm
             
             disp('Executing initialize on the first image frame')
             algObj.SelectedLabelName = algObj.SelectedLabelDefinitions.Name;
-            data = load('GangsterDetector.mat');
+            data = load('gangster_detector.mat');
             algObj.GangsterDetector = data.detector;  
            
         end
